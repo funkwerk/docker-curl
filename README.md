@@ -1,5 +1,5 @@
-[![](https://badge.imagelayers.io/funkwerk/curl.svg)](https://imagelayers.io/?images=funkwerk/curl:latest 'funkwerk/curl')
 [![Docker pulls](https://img.shields.io/docker/pulls/funkwerk/curl.svg)](https://hub.docker.com/r/funkwerk/curl/)
+[![Docker Build](https://img.shields.io/docker/automated/funkwerk/curl.svg)](https://hub.docker.com/r/funkwerk/curl/)
 
 # docker-curl
 
@@ -7,7 +7,7 @@ curl as tiny Docker Image, as long as there is no updated official image
 
 ## Usage
 
-docker run -ti funkwerk/curl http://github.com/
+docker run -ti funkwerk/curl:7.50.1 http://github.com/
 
 ## Version
 
